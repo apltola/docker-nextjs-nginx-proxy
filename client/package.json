@@ -1,0 +1,25 @@
+{
+  "name": "custom-server-express",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "next": "latest",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "babel-jest": "^24.5.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.11.2",
+    "jest": "^24.5.0",
+    "react-addons-test-utils": "^15.6.2",
+    "react-test-renderer": "^16.8.6"
+  }
+}
