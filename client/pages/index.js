@@ -5,7 +5,7 @@ const Index = () => {
 
   return <div>
     <div style={{paddingBottom: '20px'}}>
-      hello again next...
+      hello next
     </div>
     <Link href={{ pathname: "/someother", query:{} }} as="/otherpage">
       go to some other page
